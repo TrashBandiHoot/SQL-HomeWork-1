@@ -51,7 +51,6 @@ WHERE customer_id >= 380 and customer_id <= 430
 GROUP BY amount
 HAVING count(rental_id) > 250;
 
-
 -- 10. Within the film table, how many rating categories are there? And what rating has the most movies total?
 SELECT rating, count(rating)
 FROM film
